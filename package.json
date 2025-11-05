@@ -1,30 +1,21 @@
 {
-  "name": "webMUSHRA",
-  "version": "1.4.3",
-  "description": "Web Audio API based Listening Experiment Framework",
-  "author": "International Audio Laboratories Erlangen",
-  "repository": "https://github.com/audiolabs/webMUSHRA",
-  "main": "Gruntfile.js",
-  "directories": {
-    "test": "test"
-  },
-  "scripts": {
-    "test": "grunt test",
-    "start": ""
-  },
-  "keywords": [
-    "MUSHRA"
-  ],
-  "devDependencies": {
-    "grunt": "^1.5.3",
-    "grunt-contrib-compress": "^1.4.1",
-    "grunt-contrib-concat": "^1.0.1",
-    "grunt-contrib-jshint": "^1.1.0",
-    "grunt-contrib-qunit": "^1.3.0",
-    "grunt-contrib-uglify": "^2.2.0",
-    "grunt-jsdoc": "^2.1.0",
-    "grunt-processhtml": "^0.4.1",
-    "jsdoc": "^3.4.3"
-  },
-  "license": "SEE LICENSE IN LICENSE.txt"
+    "$schema": "https://json.schemastore.org/package.json",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "build": "vite build",
+        "dev": "vite"
+    },
+    "devDependencies": {
+        "@tailwindcss/forms": "^0.5.2",
+        "@tailwindcss/vite": "^4.0.0",
+        "alpinejs": "^3.4.2",
+        "autoprefixer": "^10.4.2",
+        "axios": "^1.11.0",
+        "concurrently": "^9.0.1",
+        "laravel-vite-plugin": "^2.0.0",
+        "postcss": "^8.4.31",
+        "tailwindcss": "^3.1.0",
+        "vite": "^7.0.7"
+    }
 }
